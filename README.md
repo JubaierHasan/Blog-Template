@@ -1,8 +1,115 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 	<title>Blog template</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>*{margin: 0; padding: 0; font-family: arial;}
+body{position: relative; background:url(c:jubaier/index/img10.jpg)
+	repeat 0 0 fixed; width: 100%;}
+.clear{overflow: hidden;}
+.template{ width: 900px; margin: 0 auto; background: #90C842; }
+.header{background: #767F15; height: 100px; border-bottom: 5px solid black;
+
+}
+.header ul{}
+.header ul li{display: block; float: left;}
+.header ul li h1{    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 13px;
+    margin-right: 430px;
+    margin-left: 14px;
+}
+ sub{margin-left: 17px; color: white;}
+.header ul li img{    width: 36px;
+    padding-top: 17px;
+    padding-left: 25px;}
+.navigation{background: #fc9505; height: 25px;}
+.navigation ul{padding: 0;margin: 0; list-style: none;}
+.navigation ul li{ display: block; float: left;}
+.navigation ul li a{text-decoration: none;margin-right: 5px; 
+	 padding: 25px; background: orange; color: white; font-family: tahoma; 
+	 font-size: 20px;  }
+	 .navigation ul li a:hover{text-decoration: none;margin-right: 5px; 
+	 padding: 25px; background: indigo; color: white; font-family: tahoma; 
+	 font-size: 20px;  }
+	 .slider{width:880px; height: 350px;  border: 10px solid #000000;
+	 }
+	 .slider img{width:880px; height: 355px;  }
+	 .contentsection{ background: #90C6A6; }
+.maincontent{ width: 530px; float: left; padding: 0px 10px 10px 10px; border: 2px solid black;}
+.maincontent p{text-align: justify; line-height: 30px; font-size: 18px;}
+.maincontent h2{    background: #90C842;
+    padding: 10px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    margin-top: 10px;
+    font-family: tahoma;
+    font-size: 33px;
+    font-weight: 550;
+    color: indigo;
+}
+.maincontent img{width: 300px; float: left; margin-top: 5px; margin-right: 8px;
+margin-bottom: 0px; border: 3px solid white;}
+.readmore{font-family: arial; font-size: 20px; background: white; border:
+	2px solid black; float: right; padding: 3px; margin-right: 10px; 
+border-radius: 5px; font-weight: 600; margin-top: 2px;}
+.readmore:hover{font-family: arial; font-size: 20px; background: indigo; border:
+	2px solid black; float: right; padding: 3px; margin-right: 10px; 
+border-radius: 5px; font-weight: 600; margin-top: 2px; color: white;
+cursor: pointer;}
+.sidebar{width: 320px; float: right; padding: 0px 10px 10px 10px;
+border: 2px solid black;}
+.sidebar p{text-align: justify; line-height: 25px; font-size: 20px;}
+.sidebar h2{background: orange; padding: 10px; border-bottom: 5px solid black;
+margin-top: 10px; font-family: tahoma; font-size: 30px; font-weight: 300;}
+.footer{ background: black; color: white; text-align: center; 
+	 height: 80px;  }
+.footer p{     margin-top: 11px;
+    font-size: 15px;
+ }
+ .icon {position: fixed; left: 10px; top: 200px; width: 50px;}
+ .icon  img{width: 50px; padding-top: 10px;}
+
+input[type="text"],input[type="email"],input[type="password"]{ 
+    padding-left: 8px;
+    padding-right: 115px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 6px solid black;
+    border-radius: 10px; }
+input[type="submit"] {    padding: 8px;
+    border: 3px solid orange;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: cursive;
+cursor: pointer;}
+    input[type="submit"]:hover {    padding: 8px;
+    border: 3px solid orange;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: cursive;
+background: indigo; color: white;}
+.maincontent table{ margin-top: 10px; }
+textarea{        width: 293px;
+    border: 5px solid black;
+    border-radius: 6px;
+    padding-bottom: 62px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
 
 </head>
 
